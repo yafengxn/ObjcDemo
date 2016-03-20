@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="iWt-O3-Rk5">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="0Ks-mn-PKn">
+            <objects>
+                <viewController id="iWt-O3-Rk5" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="cmq-QU-vRB"/>
+                        <viewControllerLayoutGuide type="bottom" id="KL1-m4-2gK"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="cwR-fq-V88">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qnd-jw-Jhu">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="500"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </webView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="点      我" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4i-Vy-po0">
+                                <rect key="frame" x="0.0" y="500" width="600" height="100"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="qnd-jw-Jhu" firstAttribute="top" secondItem="cwR-fq-V88" secondAttribute="top" id="2d4-Kr-L1A"/>
+                            <constraint firstItem="KL1-m4-2gK" firstAttribute="top" secondItem="qnd-jw-Jhu" secondAttribute="bottom" constant="100" id="T7M-Ia-r2f"/>
+                            <constraint firstItem="C4i-Vy-po0" firstAttribute="top" secondItem="qnd-jw-Jhu" secondAttribute="bottom" id="UBW-NW-Lre"/>
+                            <constraint firstAttribute="trailing" secondItem="C4i-Vy-po0" secondAttribute="trailing" id="XuV-u8-a8k"/>
+                            <constraint firstItem="C4i-Vy-po0" firstAttribute="leading" secondItem="cwR-fq-V88" secondAttribute="leading" id="edx-zM-cRW"/>
+                            <constraint firstItem="qnd-jw-Jhu" firstAttribute="leading" secondItem="cwR-fq-V88" secondAttribute="leading" id="hUL-uC-3cW"/>
+                            <constraint firstAttribute="trailing" secondItem="qnd-jw-Jhu" secondAttribute="trailing" id="jRe-9a-suU"/>
+                            <constraint firstItem="KL1-m4-2gK" firstAttribute="top" secondItem="C4i-Vy-po0" secondAttribute="bottom" id="nfo-Gv-Jd4"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="qnd-jw-Jhu" id="LVY-dp-rhO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pug-yq-kBf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="342" y="251"/>
+        </scene>
+    </scenes>
+</document>

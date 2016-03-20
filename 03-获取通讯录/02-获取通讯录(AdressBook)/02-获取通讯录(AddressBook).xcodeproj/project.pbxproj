@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F937B051B872A6A00A4EFD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F937B041B872A6A00A4EFD1 /* main.m */; };
+		7F937B081B872A6B00A4EFD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F937B071B872A6B00A4EFD1 /* AppDelegate.m */; };
+		7F937B0B1B872A6B00A4EFD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F937B0A1B872A6B00A4EFD1 /* ViewController.m */; };
+		7F937B0E1B872A6B00A4EFD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F937B0C1B872A6B00A4EFD1 /* Main.storyboard */; };
+		7F937B101B872A6B00A4EFD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F937B0F1B872A6B00A4EFD1 /* Images.xcassets */; };
+		7F937B131B872A6B00A4EFD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7F937B111B872A6B00A4EFD1 /* LaunchScreen.xib */; };
+		7F937B1F1B872A6B00A4EFD1 /* _2_______AdressBook_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F937B1E1B872A6B00A4EFD1 /* _2_______AdressBook_Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F937B191B872A6B00A4EFD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F937AF71B872A6A00A4EFD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F937AFE1B872A6A00A4EFD1;
+			remoteInfo = "02-获取通讯录(AdressBook)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7F937AFF1B872A6A00A4EFD1 /* 02-获取通讯录(AddressBook).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-获取通讯录(AddressBook).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F937B031B872A6A00A4EFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F937B041B872A6A00A4EFD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F937B061B872A6A00A4EFD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F937B071B872A6B00A4EFD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F937B091B872A6B00A4EFD1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7F937B0A1B872A6B00A4EFD1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7F937B0D1B872A6B00A4EFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F937B0F1B872A6B00A4EFD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7F937B121B872A6B00A4EFD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7F937B181B872A6B00A4EFD1 /* 02-获取通讯录(AddressBook)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "02-获取通讯录(AddressBook)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F937B1D1B872A6B00A4EFD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F937B1E1B872A6B00A4EFD1 /* _2_______AdressBook_Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_2_______AdressBook_Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F937AFC1B872A6A00A4EFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F937B151B872A6B00A4EFD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F937AF61B872A6A00A4EFD1 = {
+			isa = PBXGroup;
+			children = (
+				7F937B011B872A6A00A4EFD1 /* 02-获取通讯录(AdressBook) */,
+				7F937B1B1B872A6B00A4EFD1 /* 02-获取通讯录(AdressBook)Tests */,
+				7F937B001B872A6A00A4EFD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7F937B001B872A6A00A4EFD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F937AFF1B872A6A00A4EFD1 /* 02-获取通讯录(AddressBook).app */,
+				7F937B181B872A6B00A4EFD1 /* 02-获取通讯录(AddressBook)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F937B011B872A6A00A4EFD1 /* 02-获取通讯录(AdressBook) */ = {
+			isa = PBXGroup;
+			children = (
+				7F937B061B872A6A00A4EFD1 /* AppDelegate.h */,
+				7F937B071B872A6B00A4EFD1 /* AppDelegate.m */,
+				7F937B091B872A6B00A4EFD1 /* ViewController.h */,
+				7F937B0A1B872A6B00A4EFD1 /* ViewController.m */,
+				7F937B0C1B872A6B00A4EFD1 /* Main.storyboard */,
+				7F937B0F1B872A6B00A4EFD1 /* Images.xcassets */,
+				7F937B111B872A6B00A4EFD1 /* LaunchScreen.xib */,
+				7F937B021B872A6A00A4EFD1 /* Supporting Files */,
+			);
+			path = "02-获取通讯录(AdressBook)";
+			sourceTree = "<group>";
+		};
+		7F937B021B872A6A00A4EFD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F937B031B872A6A00A4EFD1 /* Info.plist */,
+				7F937B041B872A6A00A4EFD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F937B1B1B872A6B00A4EFD1 /* 02-获取通讯录(AdressBook)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7F937B1E1B872A6B00A4EFD1 /* _2_______AdressBook_Tests.m */,
+				7F937B1C1B872A6B00A4EFD1 /* Supporting Files */,
+			);
+			path = "02-获取通讯录(AdressBook)Tests";
+			sourceTree = "<group>";
+		};
+		7F937B1C1B872A6B00A4EFD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F937B1D1B872A6B00A4EFD1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F937AFE1B872A6A00A4EFD1 /* 02-获取通讯录(AddressBook) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F937B221B872A6B00A4EFD1 /* Build configuration list for PBXNativeTarget "02-获取通讯录(AddressBook)" */;
+			buildPhases = (
+				7F937AFB1B872A6A00A4EFD1 /* Sources */,
+				7F937AFC1B872A6A00A4EFD1 /* Frameworks */,
+				7F937AFD1B872A6A00A4EFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "02-获取通讯录(AddressBook)";
+			productName = "02-获取通讯录(AdressBook)";
+			productReference = 7F937AFF1B872A6A00A4EFD1 /* 02-获取通讯录(AddressBook).app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F937B171B872A6B00A4EFD1 /* 02-获取通讯录(AddressBook)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F937B251B872A6B00A4EFD1 /* Build configuration list for PBXNativeTarget "02-获取通讯录(AddressBook)Tests" */;
+			buildPhases = (
+				7F937B141B872A6B00A4EFD1 /* Sources */,
+				7F937B151B872A6B00A4EFD1 /* Frameworks */,
+				7F937B161B872A6B00A4EFD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F937B1A1B872A6B00A4EFD1 /* PBXTargetDependency */,
+			);
+			name = "02-获取通讯录(AddressBook)Tests";
+			productName = "02-获取通讯录(AdressBook)Tests";
+			productReference = 7F937B181B872A6B00A4EFD1 /* 02-获取通讯录(AddressBook)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F937AF71B872A6A00A4EFD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yafengxn;
+				TargetAttributes = {
+					7F937AFE1B872A6A00A4EFD1 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					7F937B171B872A6B00A4EFD1 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 7F937AFE1B872A6A00A4EFD1;
+					};
+				};
+			};
+			buildConfigurationList = 7F937AFA1B872A6A00A4EFD1 /* Build configuration list for PBXProject "02-获取通讯录(AddressBook)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F937AF61B872A6A00A4EFD1;
+			productRefGroup = 7F937B001B872A6A00A4EFD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F937AFE1B872A6A00A4EFD1 /* 02-获取通讯录(AddressBook) */,
+				7F937B171B872A6B00A4EFD1 /* 02-获取通讯录(AddressBook)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F937AFD1B872A6A00A4EFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F937B0E1B872A6B00A4EFD1 /* Main.storyboard in Resources */,
+				7F937B131B872A6B00A4EFD1 /* LaunchScreen.xib in Resources */,
+				7F937B101B872A6B00A4EFD1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F937B161B872A6B00A4EFD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F937AFB1B872A6A00A4EFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F937B0B1B872A6B00A4EFD1 /* ViewController.m in Sources */,
+				7F937B081B872A6B00A4EFD1 /* AppDelegate.m in Sources */,
+				7F937B051B872A6A00A4EFD1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F937B141B872A6B00A4EFD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F937B1F1B872A6B00A4EFD1 /* _2_______AdressBook_Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F937B1A1B872A6B00A4EFD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F937AFE1B872A6A00A4EFD1 /* 02-获取通讯录(AddressBook) */;
+			targetProxy = 7F937B191B872A6B00A4EFD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F937B0C1B872A6B00A4EFD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F937B0D1B872A6B00A4EFD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F937B111B872A6B00A4EFD1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F937B121B872A6B00A4EFD1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F937B201B872A6B00A4EFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F937B211B872A6B00A4EFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F937B231B872A6B00A4EFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-获取通讯录(AdressBook)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "02-获取通讯录(AddressBook)";
+			};
+			name = Debug;
+		};
+		7F937B241B872A6B00A4EFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "02-获取通讯录(AdressBook)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "02-获取通讯录(AddressBook)";
+			};
+			name = Release;
+		};
+		7F937B261B872A6B00A4EFD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-获取通讯录(AdressBook)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "02-获取通讯录(AddressBook)Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-获取通讯录(AdressBook).app/02-获取通讯录(AdressBook)";
+			};
+			name = Debug;
+		};
+		7F937B271B872A6B00A4EFD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "02-获取通讯录(AdressBook)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "02-获取通讯录(AddressBook)Tests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/02-获取通讯录(AdressBook).app/02-获取通讯录(AdressBook)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F937AFA1B872A6A00A4EFD1 /* Build configuration list for PBXProject "02-获取通讯录(AddressBook)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F937B201B872A6B00A4EFD1 /* Debug */,
+				7F937B211B872A6B00A4EFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F937B221B872A6B00A4EFD1 /* Build configuration list for PBXNativeTarget "02-获取通讯录(AddressBook)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F937B231B872A6B00A4EFD1 /* Debug */,
+				7F937B241B872A6B00A4EFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F937B251B872A6B00A4EFD1 /* Build configuration list for PBXNativeTarget "02-获取通讯录(AddressBook)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F937B261B872A6B00A4EFD1 /* Debug */,
+				7F937B271B872A6B00A4EFD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F937AF71B872A6A00A4EFD1 /* Project object */;
+}
