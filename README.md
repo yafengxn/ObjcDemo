@@ -11,6 +11,7 @@ Objective-C 中各种实用的demos
 	- UIFont+ItalicChineseFont: 获取倾斜的中文字体(中文不支持倾斜，这里是设置倾斜角度)
 	- NSString+base64(支持iOS7以上版本)
     - UIImage+XNExtension:通过UIColor产生一个单色图片
+    - NSTimer+Convince:使用Block将NSTimer封装起来更好用
   
 - 01-使用AVPlayer封装的视频播放Demo
   
